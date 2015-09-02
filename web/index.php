@@ -10,7 +10,7 @@ require_once("clase/usuario.php");
  
   <head>
    
-  <title> chikipagina</title>
+  <title> chikipagina 2015</title>
   <link href="imagene/icono.ico" type="image/x-icon" rel="shortcut icon">
   
   <style type="text/css">
