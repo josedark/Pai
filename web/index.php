@@ -52,7 +52,7 @@ require_once("clase/usuario.php");
        </div>       
        
        </div>
-       <div style = "clear: both; height: 50%; width: 100%; background-color:blue"> actividades <?php $usuario->iniciar("Pedro Menares"); echo $usuario->listar_nombres(); ?> </div>    
+       <div style = "clear: both; height: 50%; width: 100%; background-color:blue"> actividades </div>    
      </div>
     <div style = "float: right; height: 60%; width: 70%; background-color:silver;">
     
