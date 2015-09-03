@@ -78,7 +78,7 @@ require_once("clase/usuario.php");
     
     </div>             
     
-    <div style = "clear: both; height: 10%; width: 100%; background-color:teal">dfv</div>
+    <div style = "clear: both; height: 10%; width: 100%; background-color:teal"><?php>$fecha = date("d-m-y"); echo "La fecha de hoy es: " . $fecha . "<br />"; ?>  </div>
 </div> 
 </body>
 </html>
