@@ -45,8 +45,8 @@ require_once("clase/usuario.php");
 <div  style = "display: table; margin-left: auto; margin-right: auto; width: 90%; height: 100%; background-color:yellow;"> 
     <div style = "height: 30%; width: 100%; background-color:white; background-image:url('imagene/portada.jpg'); background-repeat: no-repeat; background-position: center top;  border-style: solid; border-color: #ff0000 #0000ff ;"> </div>
     <div style = "float: left; height: 60%; width: 30%; background-color:red;"> 
-       <div style = "clear: both; height: 50%; width: 100%; background-color:teal"> 
-           <div  style = "float: left;  margin-left: 20px;   margin-top: 20px;margin-bottom: 10px; height: 50%; width: 50%; background-color:blue; "> 
+      
+           
            
                 <form  method="post"> 
                         Introduce tu nombre: <input name="nombre" type="text"> <br />
@@ -65,10 +65,10 @@ require_once("clase/usuario.php");
                          <br />
                         <input value="Saludar otra vez" type="submit"><br />
                 </form>  
-       </div>   
+          
               
        
-       </div>
+      
          
      </div>
     <div style = "float: right; height: 60%; width: 70%; background-color:silver;">
