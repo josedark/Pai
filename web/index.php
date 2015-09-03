@@ -66,11 +66,10 @@ require_once("clase/usuario.php");
                         <input value="Saludar otra vez" type="submit"><br />
                 </form>  
        </div>   
-        <div  style = "clear: both;  margin-top: 20px; margin-right: 40px;  margin-left: 40px; height: 20%; width: 80%; background-color:red">  hola
-       </div>       
+              
        
        </div>
-       <div style = "clear: both; height: 50%; width: 100%; background-color:blue"> actividades </div>    
+         
      </div>
     <div style = "float: right; height: 60%; width: 70%; background-color:silver;">
     
