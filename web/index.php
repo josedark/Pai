@@ -48,24 +48,23 @@ require_once("clase/usuario.php");
        <div style = "clear: both; height: 50%; width: 100%; background-color:teal"> 
            <div  style = "float: left;  margin-left: 20px;   margin-top: 20px;margin-bottom: 10px; height: 50%; width: 50%; background-color:blue; "> 
            
-           <form  method="post"> 
-    Introduce tu nombre: <input name="nombre" type="text"> <br />
-    Y tu contrase&ntilde;a: <input name="clave" type="password"> <br />
-    Prefieres que te diga...<br />
-    &nbsp;&nbsp;<input name="tipoSaludo" value="hola" 
-        checked="checked" type="radio">Hola<br /> 
-    &nbsp;&nbsp;<input name="tipoSaludo" value="adios" 
-        type="radio">Adios<br /> 
-    Opci&oacute;n extra: <select name="posibilidad" size="1">
-       <option value="opcion1">Primera posibilidad </option>
-       <option value="opcion2">Segunda posibilidad </option>
-       <option value="opcion3">Tercera posibilidad </option>
-      </select> <br />
-    Comentario: <br />
-    &nbsp;&nbsp;<textarea rows="10" name="texto" cols="40"></textarea>
-    <br />
-    <input value="Saludar otra vez" type="submit"><br />
-   </form>  
+                <form  method="post"> 
+                        Introduce tu nombre: <input name="nombre" type="text"> <br />
+                        Y tu contrase&ntilde;a: <input name="clave" type="password"> <br />
+                        Prefieres que te diga...<br />
+                        &nbsp;&nbsp;<input name="tipoSaludo" value="hola" 
+                        checked="checked" type="radio">Hola<br /> 
+                        &nbsp;&nbsp;<input name="tipoSaludo" value="adios" 
+                        type="radio">Adios<br /> 
+                         Opci&oacute;n extra: <select name="posibilidad" size="1">
+                        <option value="opcion1">Primera posibilidad </option>
+                         <option value="opcion2">Segunda posibilidad </option>
+                         <option value="opcion3">Tercera posibilidad </option>
+                          </select> <br />
+                          Comentario: <br />&nbsp;&nbsp;<textarea rows="10" name="texto" cols="40"></textarea>
+                         <br />
+                        <input value="Saludar otra vez" type="submit"><br />
+                </form>  
        </div>   
         <div  style = "clear: both;  margin-top: 20px; margin-right: 40px;  margin-left: 40px; height: 20%; width: 80%; background-color:red">  hola
        </div>       
