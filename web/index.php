@@ -2,6 +2,7 @@
 
 require_once("clase/usuario.php");
 
+
 ?>
 
 
@@ -48,7 +49,7 @@ require_once("clase/usuario.php");
       
            
            
-                <form  method="post"> 
+                <form action="login/saludar.php" method="post"> 
                         Introduce tu nombre: <input name="nombre" type="text"> <br />
                         Y tu contrase&ntilde;a: <input name="clave" type="password"> <br />
                         Prefieres que te diga...<br />
