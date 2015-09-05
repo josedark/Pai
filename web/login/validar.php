@@ -1,7 +1,8 @@
 <?php
+$nombre= $_POST["textusuario"];
+$pass= $_POST['contraseña'];
 
-
-if(empty($usuario) || empty($pass)){
+if(empty($usuario) and empty($pass)){
 header("Location: index.php");
 exit();
 } 
@@ -13,8 +14,7 @@ exit();
 
 
 
-$nombre= $_POST["textusuario"];
-$pass= $_POST['contraseña'];
+
 
 $result = pg_query("SELECT * from usuario where usuario='" .$nombre . "'");
 
