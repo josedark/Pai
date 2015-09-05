@@ -108,6 +108,8 @@ background-color:red;
 float: center;
  height: 60%; width: 70%; 
  background-color:A7BCFA;
+ 
+}
  .login-help {
   width: 100%;
   text-align: center;
