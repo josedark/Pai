@@ -38,7 +38,7 @@
 	border:3px solid #fff;
 	display: block;
 }
-.wrap input {
+.wrap input[type=text], input[type=password] {
 	border: none;
 	background: #fff;
   font-family:Lato ;
@@ -83,26 +83,7 @@
 	left: 170px;
 	top: -36px;
 }
-.wrap button {
-	width: 100%;
-	border-radius: 7px;
-	background: #b6ee65;
-	text-decoration: center;
-	border: none;
-	color: #51771a;
-  margin-top:-5px;
-	padding-top: 14px;
-	padding-bottom: 14px;
-	outline: none;
-	font-size: 13px;	
-	border-bottom: 3px solid #307d63;
-	cursor: pointer;
-}
-.wrap button:hover{
-background-color:red;
- border: 1px solid #b9b9b9;
-  border-top: 1px solid #a0a0a0;
-}
+
 
 .cambio {
 float: center;
@@ -110,12 +91,60 @@ float: center;
  background-color:A7BCFA;
  
 }
+.login {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+
+}
+
+
  .login-help {
   width: 100%;
   text-align: center;
   font-size: 12px;
  
   
+}
+.login-help :hover {
+  
+  font-size: 14px;
+ 
+  
+}
+
+
+
+
+.login-submit {
+  /* border: 1px solid #3079ed; */
+  border: 0px;
+  color:#fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color:#51771a;
+  border: none;
+	background: #51771a;
+  font-family:Lato ;
+  font-weight:700 ;
+	display: block;
+	height: 40px;
+	outline: none;
+	width: calc(100% - 24px) ;
+		margin: 0 auto 10px;
+	padding: 6px 12px 6px 12px;
+  
+}
+
+.login-submit:hover {
+  /* border: 1px solid #2f5bb7; */
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #357ae8;
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
 }
 
 </style>
@@ -141,18 +170,16 @@ float: center;
 	        	<div class="avatar">
                  <img src="imagene/avatar.jpg">
 		      </div>
-		      <form method="post" action="">
+		      <form action="login/validar.php" method="POST">
 	           	<input type="text" placeholder="username" name="textusuario">
-		         <div class="bar">
-		     	<i></i>
-		     </div>
-	          	<input type="password" placeholder="password" name="contraseña">
-		          <a href="" class="forgot_link">Actualizar</a>
-	          	<button  type="submit"  name="login" value="submit" >Entrar </button>
+		         <div class="bar">  </div>
+	          	<input type="password" placeholder="password" name="contrasena">
+		          
+	          	 <input type="submit"  class="login login-submit" value="login">
 	            </form>      
         
                 <div class="login-help">
-                <a href="#">Register</a> • <a href="#">Forgot Password</a>
+                <a href="#">Register</a> - <a href="#">Forgot Password</a>
                </div>
     
     <div style = "clear: both; height: 10%; width: 100%; background-color:A7BCFA;"> </div>

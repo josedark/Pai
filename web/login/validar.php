@@ -2,7 +2,7 @@
 $nombre= $_POST["textusuario"];
 $pass= $_POST['contrasena'];
 
-if(empty($usuario) and empty($pass)){
+if(empty($usuario) or empty($pass)){
 header("Location: index.php");
 exit();
 } 
