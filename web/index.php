@@ -1,9 +1,4 @@
-<?php
 
-require_once("clase/usuario.php");
-
-
-?>
 
 
 
@@ -12,73 +7,150 @@ require_once("clase/usuario.php");
   <head>
    
   <title> chikipagina 2015</title>
+    <meta charset="UTF-8">  
   <link href="imagene/icono.ico" type="image/x-icon" rel="shortcut icon">
-  
-  <style type="text/css">
-   .styled-button-1 {
-	background: #25A6E1;
-	background: -moz-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
-	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#25A6E1),color-stop(100%,#188BC0));
-	background: -webkit-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
-	background: -o-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
-	background: -ms-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
-	background: linear-gradient(top,#25A6E1 0%,#188BC0 100%);
-	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#25A6E1',endColorstr='#188BC0',GradientType=0);
-	padding:8px 13px;
-	color:#fff;
-	font-family:'Helvetica Neue',sans-serif;
-	font-size:17px;
-	border-radius:4px;
-	-moz-border-radius:4px;
-	-webkit-border-radius:4px;
-	height:100%;
-	width: 100%;
-	border:1px solid #1A87B9
+  <style type="text/css" media="Screen">
+ 
+ .wrap {
+	width:250px;
 
+	 padding: 40px;
+	margin: 0 auto 10px;
+	
+
+  overflow: hidden;
 }
- </style>
+.avatar {
+	width: 100%;
+	margin: auto;
+	width: 65px;
+	border-radius: 100px;
+	height: 65px;
+	background: #448ed3 ;
+	position: relative;
+	bottom: -15px;
+}
+.avatar img {
+	width: 55px;
+	height: 55px;
+	border-radius: 100px;
+	margin: auto;
+	border:3px solid #fff;
+	display: block;
+}
+.wrap input {
+	border: none;
+	background: #fff;
+  font-family:Lato ;
+  font-weight:700 ;
+	display: block;
+	height: 40px;
+	outline: none;
+	width: calc(100% - 24px) ;
+		margin: 0 auto 10px;
+	padding: 6px 12px 6px 12px;
+}
+.bar {
+	width: 100%;
+	height: 1px;
+	
+}
+.bar i {
+	width: 95%;
+  margin: 0 auto 10px;
+	height: 1px ;
+	display: block;
+	
+}
+.wrap input[type="text"] {
+	border-radius: 7px 7px 0px 0px ;
+}
+.wrap input[type="password"] {
+	border-radius: 0px 0px 7px 7px ;
+}
+.wrap input[type="text"]:hover,.wrap input[type="password"]:hover
+{
+ border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+}
+
+.forgot_link {
+	color: #83afdf ;
+	color: #83afdf;
+	text-decoration: none;
+	font-size: 11px;
+	position: relative;
+	left: 170px;
+	top: -36px;
+}
+.wrap button {
+	width: 100%;
+	border-radius: 7px;
+	background: #b6ee65;
+	text-decoration: center;
+	border: none;
+	color: #51771a;
+  margin-top:-5px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	outline: none;
+	font-size: 13px;	
+	border-bottom: 3px solid #307d63;
+	cursor: pointer;
+}
+.wrap button:hover{
+background-color:red;
+ border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+}
+
+.cambio {
+float: center;
+ height: 60%; width: 70%; 
+ background-color:A7BCFA;
+ 
+ 
+  
+}
+
+</style>
+
+  
+  
   
 
 </head>
-<body>
+
  <body>
 
-<div  style = "display: table; margin-left: auto; margin-right: auto; width: 90%; height: 100%; background-color:yellow;"> 
+<div  style = "display: table; margin-left: auto; margin-right: auto; width: 90%; height: 100%; background-color:A7BCFA;"> 
     <div style = "height: 30%; width: 100%; background-color:white; background-image:url('imagene/portada.jpg'); background-repeat: no-repeat; background-position: center top;  border-style: solid; border-color: #ff0000 #0000ff ;"> </div>
-    <div style = "float: left; height: 60%; width: 30%; background-color:red;"> 
+    <div style = "float: left; height: 60%; width: 30%; background-color:A7BCFA;"> 
       
-           
-           
-                <form action="login/saludar.php" method="post"> 
-                        Introduce tu nombre: <input name="nombre" type="text"> <br />
-                        Y tu contrase&ntilde;a: <input name="clave" type="password"> <br />
-                        Prefieres que te diga...<br />
-                        &nbsp;&nbsp;<input name="tipoSaludo" value="hola" 
-                        checked="checked" type="radio">Hola<br /> 
-                        &nbsp;&nbsp;<input name="tipoSaludo" value="adios" 
-                        type="radio">Adios<br /> 
-                         Opci&oacute;n extra: <select name="posibilidad" size="1">
-                        <option value="opcion1">Primera posibilidad </option>
-                         <option value="opcion2">Segunda posibilidad </option>
-                         <option value="opcion3">Tercera posibilidad </option>
-                          </select> <br />
-                          Comentario: <br />&nbsp;&nbsp;<textarea rows="10" name="texto" cols="40"></textarea>
-                         <br />
-                        <input value="Saludar otra vez" type="submit"><br />
-                </form>  
-          
-              
-       
-      
-         
      </div>
-    <div style = "float: right; height: 60%; width: 70%; background-color:silver;">
+    <div class="cambio">
     
-     <div style = "clear: both; height: 10%; width: 100%; background-color:red"> <div style = "float: left; height: 100%; width: 20%; background-color:blue"> <input type="submit" class="styled-button-1" value="Anime" onclick="window.location='Clase/conectar.php'"  />   </div>  <div style = "float: left; height: 100%; width: 20%; background-color:yellow"> <input type="submit" class="styled-button-1" value="Musica" />  </div>  <div style = "float: left; height: 100%; width: 20%; background-color:blue">  <input type="submit" class="styled-button-1" value="Programacion" />   </div> <div style = "float: left; height: 100%; width: 20%; background-color:yellow"> <input type="submit" class="styled-button-1" value="Matematica" />   </div> <div style = "float: left; height: 100%; width: 20%; background-color:blue"><input type="submit" class="styled-button-1" value="Registrarse" /> </div>                 </div>    
     
-    </div>             
+                      
+            <div class="wrap">
+	        	<div class="avatar">
+                 <img src="imagene/avatar.jpg">
+		      </div>
+		      <form method="post" action="login/re.php">
+	           	<input type="text" placeholder="username" name="textusuario">
+		         <div class="bar">
+		     	<i></i>
+		     </div>
+	          	<input type="password" placeholder="password" name="contraseña">
+		          <a href="" class="forgot_link">Actualizar</a>
+	          	<button  type="submit"  name="login" value="submit" >Entrar</button>
+	            </form>      
+        
+               
     
-    <div style = "clear: both; height: 10%; width: 100%; background-color:teal"><?php>$fecha = date("d-m-y"); echo "La fecha de hoy es: " . $fecha . "<br />"; echo "Hora actual: "  . date("H:i:s"). "<br />";?>  </div>
+    <div style = "clear: both; height: 10%; width: 100%; background-color:A7BCFA;"> </div>
 </div> 
 </body>
 </html>
+
+    <div styl
