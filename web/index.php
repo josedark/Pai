@@ -136,14 +136,14 @@ float: center;
 	        	<div class="avatar">
                  <img src="imagene/avatar.jpg">
 		      </div>
-		      <form method="post" action="validar.php">
+		      <form method="post" action="">
 	           	<input type="text" placeholder="username" name="textusuario">
 		         <div class="bar">
 		     	<i></i>
 		     </div>
 	          	<input type="password" placeholder="password" name="contraseña">
 		          <a href="" class="forgot_link">Actualizar</a>
-	          	<button  type="submit"  name="login" value="submit" >Entrar</button>
+	          	<button  type="submit"  name="login" value="submit" >Entrar </button>
 	            </form>      
         
                
