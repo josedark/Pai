@@ -1,2 +1,2 @@
-Hola <?php echo htmlspecialchars($_POST['nombre']); ?>.
-Usted tiene <?php echo (int)$_POST['edad']; ?> años.
+Hola <?php echo htmlspecialchars($_POST['textusuario']); ?>.
+contraseña <?php htmlspecialchars($_POST['contraseña']); ?> años.

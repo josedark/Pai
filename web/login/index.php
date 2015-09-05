@@ -1,8 +1,4 @@
-<?php
 
-require_once("clase/usuario.php");
-
-?>
 
 
 
