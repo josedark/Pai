@@ -1,0 +1,11 @@
+<?php
+$_POST['textusuario'];
+$_POST['contrasena'];
+
+if(empty($_POST['textusuario'])or empty($_POST['contrasena']))
+{
+	
+		}else {}
+
+
+?>

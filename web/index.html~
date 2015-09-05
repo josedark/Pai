@@ -133,7 +133,7 @@ float: center;
 	height: 40px;
 	outline: none;
 	width: calc(100% - 24px) ;
-		margin: 0 auto 10px;
+	margin: 0 auto 10px;
 	padding: 6px 12px 6px 12px;
   
 }
@@ -170,7 +170,9 @@ float: center;
 	        	<div class="avatar">
                  <img src="imagene/avatar.jpg">
 		      </div>
-		      <form action="login/validar.php" method="POST">
+		      
+		      <form action="login/login.php" method="POST">
+		         <div style="width: 100%; height: 16px;">  </div>
 	           	<input type="text" placeholder="username" name="textusuario">
 		         <div class="bar">  </div>
 	          	<input type="password" placeholder="password" name="contrasena">
@@ -187,4 +189,4 @@ float: center;
 </body>
 </html>
 
-    <div styl
+    
