@@ -108,7 +108,10 @@ background-color:red;
 float: center;
  height: 60%; width: 70%; 
  background-color:A7BCFA;
- 
+ .login-help {
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
  
   
 }
@@ -146,7 +149,9 @@ float: center;
 	          	<button  type="submit"  name="login" value="submit" >Entrar </button>
 	            </form>      
         
-               
+                <div class="login-help">
+                <a href="#">Register</a> • <a href="#">Forgot Password</a>
+               </div>
     
     <div style = "clear: both; height: 10%; width: 100%; background-color:A7BCFA;"> </div>
 </div> 
