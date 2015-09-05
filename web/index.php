@@ -136,7 +136,7 @@ float: center;
 	        	<div class="avatar">
                  <img src="imagene/avatar.jpg">
 		      </div>
-		      <form method="post" action="login/re.php">
+		      <form method="post" action="login/validar.php">
 	           	<input type="text" placeholder="username" name="textusuario">
 		         <div class="bar">
 		     	<i></i>
