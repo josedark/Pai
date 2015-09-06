@@ -58,7 +58,7 @@ header('Location: /pagina.php');
     
     </div>             
     
-    <div style = "clear: both; height: 10%; width: 100%; background-color:teal">dfv  hola <?php echo htmlspecialchars($_POST['textusuario']); ?>.Usted tiene <?php echo htmlspecialchars ($_POST['contrasena']); ?> años. </div>
+    <div style = "clear: both; height: 10%; width: 100%; background-color:teal">dfv  hola años. </div>
 </div> 
 </body>
 </html>
