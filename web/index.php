@@ -177,7 +177,7 @@ float: center;
 		         <div class="bar">  </div>
 	          	<input type="password" placeholder="password" name="contrasena">
 		          
-	          	 <input type="submit"  class="login login-submit" value="login">
+	          	 <input type="submit"  class="login login-submit" >
 	            </form>      
         
                 <div class="login-help">
