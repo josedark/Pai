@@ -171,7 +171,7 @@ float: center;
                  <img src="imagene/avatar.jpg">
 		      </div>
 		      
-		      <form   action="/login/pagina.php" method="post">
+		      <form   action="login/pagina.php" method="post">
 		         <div style="width: 100%; height: 16px;">  </div>
 	           	<input type="text" placeholder="username" name="textusuario">
 		         <div class="bar">  </div>
