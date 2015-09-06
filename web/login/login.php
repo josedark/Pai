@@ -9,7 +9,8 @@ if(empty($_GET['textusuario']) or empty($_GET['contrasena']))
 		}
 		else {
 			
-      echo($_GET['textusuario'],$_GET['contrasena']);			
+      echo($_GET['textusuario'],$_GET['contrasena']);
+      header('Location:pagina.php');
 			}
 
 }else
