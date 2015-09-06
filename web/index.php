@@ -171,7 +171,7 @@ float: center;
                  <img src="imagene/avatar.jpg">
 		      </div>
 		      
-		      <form action="login/login.php" method="get">
+		      <form method="get"  action="login">
 		         <div style="width: 100%; height: 16px;">  </div>
 	           	<input type="text" placeholder="username" name="textusuario">
 		         <div class="bar">  </div>
@@ -184,7 +184,7 @@ float: center;
                 <a href="#">Register</a> - <a href="#">Forgot Password</a>
                </div>
     
-    <div style = "clear: both; height: 10%; width: 100%; background-color:A7BCFA;"> </div><?php phpinfo() ; ?>
+    <div style = "clear: both; height: 10%; width: 100%; background-color:A7BCFA;"> </div> 
 </div> 
 </body>
 </html>
