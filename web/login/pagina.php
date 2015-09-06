@@ -56,7 +56,7 @@
     
     </div>             
     
-    <div style = "clear: both; height: 10%; width: 100%; background-color:teal">dfv   <?php  echo($_GET['textusuario'],$_GET['contrasena']);?> </div>
+    <div style = "clear: both; height: 10%; width: 100%; background-color:teal">dfv   <?php  echo(htmlspecialchars($_GET['textusuario']),htmlspecialchars($_GET['contrasena']));?> </div>
 </div> 
 </body>
 </html>
