@@ -56,7 +56,7 @@
     
     </div>             
     
-    <div style = "clear: both; height: 10%; width: 100%; background-color:teal">dfv   <?php  echo(htmlspecialchars($_GET['textusuario']),htmlspecialchars($_GET['contrasena']));?> </div>
+    <div style = "clear: both; height: 10%; width: 100%; background-color:teal">dfv  hola <?php echo htmlspecialchars($_POST['textusuario']); ?>.Usted tiene <?php echo htmlspecialchars ($_POST['contrasena']); ?> años. </div>
 </div> 
 </body>
 </html>
