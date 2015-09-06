@@ -184,7 +184,7 @@ float: center;
                 <a href="#">Register</a> - <a href="#">Forgot Password</a>
                </div>
     
-    <div style = "clear: both; height: 10%; width: 100%; background-color:A7BCFA;"> </div>
+    <div style = "clear: both; height: 10%; width: 100%; background-color:A7BCFA;"> </div><?php phpinfo() ; ?>
 </div> 
 </body>
 </html>
