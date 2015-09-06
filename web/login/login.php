@@ -1,9 +1,9 @@
 <?php
 $_GET['textusuario'];
 $_GET['contrasena'];
-
-if(isset($_GET['textusuario']) or isset($_GET['contrasena'])){
-if(empty($_GET['textusuario']) or empty($_GET['contrasena']))
+ phpinfo() ; 
+if(isset($_GET['textusuario']) and isset($_GET['contrasena'])){
+if(empty($_GET['textusuario']) and  empty($_GET['contrasena']))
 {
 	echo 'escriba la contraseña';
 		}
