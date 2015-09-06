@@ -1,4 +1,8 @@
 <?php
+
+header('Status: 301 Moved Permanently', false, 301);
+header('Location:login/pagina.php');
+exit();
 $_GET['textusuario'];
 $_GET['contrasena'];
  phpinfo() ; 
