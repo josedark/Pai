@@ -171,13 +171,13 @@ float: center;
                  <img src="imagene/avatar.jpg">
 		      </div>
 		      
-		      <form   action="login/pagina.php" method="post">
+		      <form   action="/pagina.php" method="post">
 		         <div style="width: 100%; height: 16px;">  </div>
 	           	<input type="text" placeholder="username" name="textusuario">
 		         <div class="bar">  </div>
 	          	<input type="password" placeholder="password" name="contrasena">
 		          
-	          	 <input type="submit"  class="login login-submit" >
+	          	 <input type="submit"  class="login login-submit"  value ="Acceso">
 	            </form>      
         
                 <div class="login-help">
