@@ -1,0 +1,148 @@
+*{ 
+
+	padding: 0px;
+	margin: 0px;
+
+
+}
+/* #FF8000   #9FF781 */
+header
+{
+position: fixed;
+width: 100%;
+background: #000000;
+height: 48px;
+border-top:4px  solid #610B0B;
+border-bottom:4px solid #610B0B ;
+z-index: 2;
+
+
+}
+
+header #logo h2
+{
+
+
+font-family: Verdana;
+font-size: 25px;
+color: #fff;
+margin: 10px 0px 0px 10px;
+
+
+}
+
+
+
+#abrir_menu
+{
+
+	float: right;
+	margin: -35px 10px 0px 0px	;
+	color: #fff;
+	font-size: 40px;
+	cursor: pointer;
+	display: none;
+
+}
+header #menu nav
+{
+
+	height: 45px;
+	display: none;
+
+
+}
+
+
+#cerrar_menu
+{
+
+	font-size: 40px;
+	float: right;
+	padding: 5px;
+	color: #fff;
+	opacity: .6;
+	cursor: pointer;
+}
+#cerrar_menu:hover
+
+{	
+	opacity: 1;
+}
+
+header #menu
+{
+
+ width:500px;
+ margin:-28px auto;
+ -webkit-transition:left 0.7s;
+ -moz-transition:left 0.7s;
+ -o-transition:left 0.7s;
+
+
+}
+header #menu ul a{
+
+	text-decoration: none;
+	color: #fff;
+	font-family: Verdana;
+	font-size: 18px;
+	padding: 16px;
+	border: 2px solid transparent ;
+
+
+
+}
+
+header #menu ul a:hover{
+	background: #000000;
+	box-shadow: 2px 2px 2px #610B0B ;
+	border: 2px solid #610B0B ;
+
+
+}
+#inicio{width: 100%; background:url(../imagene/fondo.jpg) no-repeat center ; padding: 40px 0px 0px 0px;margin-bottom: 20px;}
+
+#inicio img {height:200px; opacity:.8; margin-bottom:40px;border: 4px solid #9FF781 ;border-radius: 18px;margin-top: 50px; transition:height 0.8s; }
+#inicio a { text-decoration: none; color:#000000;padding: 15px; border: 4px solid #9FF781 ;font-size: 17px; font-family:Verdana;border-radius: 18px;font-weight:bold; transition: background 0.7s color 0.7s;}
+#inicio a:hover
+{
+background:#000000;
+color: #FFF;
+
+
+}
+#acerca
+{
+ width: 100%;
+ color: #000000;
+}
+
+#acercas_main
+{
+	width: 880px;
+	margin: auto;
+padding-bottom:30px 
+
+}
+h3 
+{
+ font-size: 30px;
+ font-family: Verdana;
+ font-weight: bold;
+
+}
+#acerca_main h3
+{
+
+color:#000000;
+padding-bottom: 30px; 
+
+}
+#acerca_main p
+{
+
+	font-family: verdana;
+	opacity: 0.8;
+	color: #000000;
+}
