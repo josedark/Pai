@@ -1,22 +1,18 @@
-<?php 
-$maindir=""
-error_reporting(E_ALL);
-ini_set("display_errors", 1); 
- ?>
+
 
 
 <?php
 
   // crea el pie de pagina
-  require_once($maindir."menu_principal/header.php");
-  require_once($maindir."menu_principal/navbar.php");
+  require_once("menu_principal/header.php");
+  require_once("menu_principal/navbar.php");
 
 ?>
 <div id="div_contenido">
   <?php
 
   // crea el pie de pagina
-  require_once($maindir."menu_principal/home.php");
+  require_once("menu_principal/home.php");
 
 ?>
 
@@ -53,7 +49,7 @@ ini_set("display_errors", 1);
  <?php
 
   // crea el pie de pagina
-  require_once($maindir."menu_principal/footer.php");
+  require_once("menu_principal/footer.php");
 
 ?>
 
