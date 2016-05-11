@@ -35,7 +35,7 @@
                                         <input class="form-control" placeholder="Password" id="password" type="password">
                                         <br>
                                         <?php 
-                                          echo '<a id="btn-fblogin" href="menu_princiopal.php" class="btn btn-primary btn-block"> registrarse con facebook</a>';
+                                          echo '<a id="btn-fblogin" href="menu_principal.php" class="btn btn-primary btn-block"> registrarse con facebook</a>';
                                         //echo '<a href="' . $loginUrl . '">Log in with Facebook!</a>';
 
                                          ?>
