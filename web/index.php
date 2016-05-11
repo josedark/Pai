@@ -1,6 +1,6 @@
 <?php 
 
-  require_once("Facebook/start.php");
+  //require_once("Facebook/start.php");
 
  ?>
 
