@@ -1,3 +1,10 @@
+<?php 
+
+  require_once("Facebook/start.php");
+
+ ?>
+
+
 <html>
 <head>
   <title></title>
@@ -26,8 +33,16 @@
                                         </label>
                                         <input class="form-control" placeholder="Username" id="username" type="text">
                                         <input class="form-control" placeholder="Password" id="password" type="password">
-                                        <br></br>
-                                        <input class="btn btn-lg btn-success btn-block" type="submit" id="login" value="Login »">
+                                        <br>
+                                        <?php 
+                                          echo '<a id="btn-fblogin" href="'. $loginUrl .'" class="btn btn-primary btn-block"> registrarse con facebook</a>';
+                                        //echo '<a href="' . $loginUrl . '">Log in with Facebook!</a>';
+
+                                         ?>
+                                         </br>
+                                    
+
+                                        <input class="btn btn-lg btn-success btn-block"  id="login" value="Login »">
                                     </fieldset>
                                 </form>
                             </div>
@@ -46,7 +61,7 @@
  <?php
 
   // crea el pie de pagina
-  require_once($maindir."menu_principal/footer.php");
+  require_once("menu_principal/footer.php");
 
 ?>
 
