@@ -1,4 +1,6 @@
-<?php 
+<?php
+error_reporting(E_ALL);
+ini_set("display_errors", 1);
 
 function listar_archivos($carpeta){
     if(is_dir($carpeta)){
@@ -12,8 +14,8 @@ function listar_archivos($carpeta){
         }
     }
 }
-$maindir = "../";
-    $mi = $maindir.'prueba/archivo';
+$maindir = "/";
+    $mi = $maindir;
 
 echo listar_archivos($mi);
 
