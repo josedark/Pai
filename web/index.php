@@ -14,7 +14,7 @@ function listar_archivos($carpeta){
         }
     }
 }
-$maindir = "/";
+$maindir = "/app/";
     $mi = $maindir;
 
 echo listar_archivos($mi);
