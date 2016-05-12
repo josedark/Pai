@@ -2,7 +2,7 @@
 error_reporting(E_ALL);
 ini_set("display_errors", 1); 
 echo getcwd() . "\n";
-require_once  'Facebook/autoload.php';
+require_once  './vendor/autoload.php';
 use Facebook\FacebookSession;
 use Facebook\FacebookRedirectLoginHelper;
 use Facebook\FacebookRequest;
